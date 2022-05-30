@@ -1,8 +1,9 @@
-import logo from './logo.svg'
-import './App.css'
-import 'monday-ui-react-core/dist/main.css'
+// @ts-ignore
+import AttentionBox from 'monday-ui-react-core/dist/AttentionBox.js';
+import logo from './logo.svg';
+import './App.css';
+import 'monday-ui-react-core/dist/main.css';
 //Explore more Monday React Components here: https://style.monday.com/
-import AttentionBox from 'monday-ui-react-core/dist/AttentionBox.js'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         />
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
