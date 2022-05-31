@@ -1,42 +1,20 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+// @ts-ignore
+import AttentionBox from 'monday-ui-react-core/dist/AttentionBox.js';
+import logo from './logo.svg';
+import './App.css';
+import 'monday-ui-react-core/dist/main.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
+        <p>Green Cloud</p>
+        <AttentionBox
+          title='Foo Bar'
+          text="Let's start building your amazing app, which will change the world!"
+          type='success'
+        />
       </header>
     </div>
   )
