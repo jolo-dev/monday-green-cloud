@@ -3,6 +3,7 @@ import AttentionBox from 'monday-ui-react-core/dist/AttentionBox.js';
 import logo from './logo.svg';
 import './App.css';
 import 'monday-ui-react-core/dist/main.css';
+import React from 'react';
 
 function App() {
   return (

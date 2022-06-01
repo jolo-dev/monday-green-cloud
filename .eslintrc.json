@@ -33,7 +33,8 @@
     }
   },
   "ignorePatterns": [
-    "node_modules/"
+    "node_modules/",
+    "vitest.config.ts"
   ],
   "rules": {
     "indent": [
