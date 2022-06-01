@@ -4,17 +4,20 @@
   "private": true,
   "workspaces": [
     "ui/*",
-    "api/*"
+    "api/*",
+    "infra/*"
   ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test": "vitest run"
   },
   "devDependencies": {
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "vitest": "^0.13.0"
   },
   "engines": {
     "npm": ">=7.0.0",

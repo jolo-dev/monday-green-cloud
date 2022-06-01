@@ -1,6 +1,13 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
+  "extends": "../infra/tsconfig.json",
   "include": [
-    "stacks"
-  ]
+    "functions"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "."
+  }
 }
