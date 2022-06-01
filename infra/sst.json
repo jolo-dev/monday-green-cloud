@@ -1,5 +1,5 @@
 {
-  "name": "api",
-  "region": "us-east-1",
+  "name": "green-cloud-api",
+  "region": "eu-central-1",
   "main": "stacks/index.ts"
 }

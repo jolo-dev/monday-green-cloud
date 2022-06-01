@@ -2,3 +2,4 @@ packages:
   - "ui"
   - "api"
   - "infra"
+  - "my-sst-app"
