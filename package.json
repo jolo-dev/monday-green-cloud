@@ -10,14 +10,18 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "destroy": "turbo run remove --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "devDependencies": {
+    "@types/node": "^17.0.39",
     "prettier": "latest",
     "turbo": "latest",
-    "vitest": "^0.13.0"
+    "typescript": "^4.6.3",
+    "vitest": "^0.13.1"
   },
   "engines": {
     "npm": ">=7.0.0",

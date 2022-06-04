@@ -1,7 +1,7 @@
 {
   "extends": "../infra/tsconfig.json",
   "include": [
-    "functions"
+    "src"
   ],
   "compilerOptions": {
     "module": "esnext",
