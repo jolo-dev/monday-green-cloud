@@ -7,7 +7,6 @@ export default function (app: App) {
     srcPath: "../api",
     bundle: {
       format: "esm",
-      minify: true
     },
   });
   app.stack(MyStack);

@@ -1,0 +1,25 @@
+{
+    "Architectures": [
+        "x86_64"
+    ],
+    "CodeSha256": "3fbyMssayJCk8rBiYZ/Qk/BgLRz68a9iZ3gRgEw8pvQ=",
+    "CodeSize": 1277,
+    "Description": "",
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "FunctionArn": "arn:aws:lambda:eu-central-1:246350246460:function:S3Trigger3787d963-dev",
+    "FunctionName": "S3Trigger3787d963-dev",
+    "Handler": "index.handler",
+    "LastModified": "2022-05-22T16:29:24.406+0000",
+    "MemorySize": 128,
+    "PackageType": "Zip",
+    "RevisionId": "a0a38460-7214-474a-b60d-4ffc1f8482cd",
+    "Role": "arn:aws:iam::246350246460:role/S3Trigger3787d963LambdaRole3787d963-dev",
+    "Runtime": "nodejs14.x",
+    "Timeout": 25,
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "Version": "$LATEST"
+}
