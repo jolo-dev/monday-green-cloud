@@ -8,6 +8,7 @@
     "target": "es2017",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "esModuleInterop": true
   }
 }

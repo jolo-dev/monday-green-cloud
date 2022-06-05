@@ -3,5 +3,7 @@
   "include": [
     "stacks"
   ],
-  "esModuleInterop": true
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
 }
