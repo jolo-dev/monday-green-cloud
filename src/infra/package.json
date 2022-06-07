@@ -19,7 +19,7 @@
     "lodash": "^4.17.21"
   },
   "workspaces": [
-    "../api"
+    "functions"
   ],
   "dependencies": {
     "@serverless-stack/core": "^1.2.15",

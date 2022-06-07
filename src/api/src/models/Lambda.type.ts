@@ -1,3 +1,0 @@
-interface Lambda {
-  name: string;
-}

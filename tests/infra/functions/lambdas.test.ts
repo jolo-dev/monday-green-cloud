@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import { describe, it, expect, afterEach, vi } from 'vitest';
-import { getLambdas } from '../../src/api/src/lambdas';
+import { getLambdas } from '../../../src/infra/functions/lib/lambdas';
 
-vi.mock('../../api/src/lambdas', () => {
+vi.mock('../../../src/infra/functions/lib/lambdas', () => {
   const dummyLambda = require('./lambda.json');
   return {
-    getLambdas: vi.fn().mockResolvedValue(dummyLambda),
+    getLambdas: vi.fn().mockResolvedValue([dummyLambda]),
   };
 });
 
@@ -16,6 +17,6 @@ describe('api/src/lambdas', () => {
   it('should get all Lambdas', async () => {
     const lambdas = await getLambdas();
     const dummyLambda = require('./lambda.json');
-    expect(lambdas).toEqual(dummyLambda);
+    expect(lambdas).toEqual([dummyLambda]);
   });
 });

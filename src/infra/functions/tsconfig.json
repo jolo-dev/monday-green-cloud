@@ -1,14 +1,14 @@
 {
-  "extends": "../infra/tsconfig.json",
+  "extends": "../tsconfig.json",
   "include": [
-    "src"
+    "handlers",
+    "lib"
   ],
   "compilerOptions": {
     "module": "esnext",
     "target": "es2017",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "esModuleInterop": true
+    "baseUrl": "."
   }
 }

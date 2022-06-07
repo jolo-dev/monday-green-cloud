@@ -6,10 +6,57 @@
   },
   "rules": {
     "quotes": [
-      2,
+      "error",
       "single",
       {
         "avoidEscape": true
+      }
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "indent": [
+      "off"
+    ],
+    "@typescript-eslint/indent": [
+      "error",
+      2
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "no-multi-spaces": [
+      "error",
+      {
+        "ignoreEOLComments": false
+      }
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "array-bracket-newline": [
+      "error",
+      "consistent"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true,
+        "consistent": true
       }
     ]
   },

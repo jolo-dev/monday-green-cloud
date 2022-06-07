@@ -5,11 +5,11 @@
     },
     "include": [
         // whatever paths you intend to lint
-        "src/api",
+        "src/infra/functions",
         "src/infra",
         "src/ui",
-        "tests/api",
+        "tests/infra/functions",
         "tests/infra",
-        "tests/ui"
+        "tests/ui",
     ]
 }

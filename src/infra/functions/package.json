@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.100.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.98",
+    "@types/node": "^17.0.40"
+  }
+}
