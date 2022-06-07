@@ -11,7 +11,7 @@ This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes t
 
 - `api`: The API written in [SST](https://serverless-stack.com/)
 - `ui`: React app which contains the UI for the monday app
-- `backend`: 
+- `backend`:
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

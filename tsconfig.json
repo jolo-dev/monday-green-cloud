@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        // ensure that nobody can accidentally use this config for a build
+        "noEmit": true
+    },
+    "include": [
+        // whatever paths you intend to lint
+        "src/infra/functions",
+        "src/infra",
+        "src/ui",
+        "tests/infra/functions",
+        "tests/infra",
+        "tests/ui",
+    ]
+}
