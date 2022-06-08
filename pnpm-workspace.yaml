@@ -1,3 +1,5 @@
 packages:
-  - "src/*"
+  - "src/infra/*"
+  - "src/infra/functions/*"
+  - "src/ui/*"
   - "tests/*"
