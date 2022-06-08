@@ -5,7 +5,7 @@ export const getAllLambdas: APIGatewayProxyHandlerV2 = async () => {
   const lambdas = await getLambdas();
   return {
     statusCode: 200,
-    headers: { 'Content-Type': 'text/plain' },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(lambdas),
   };
 };

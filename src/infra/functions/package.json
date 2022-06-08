@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {},
   "dependencies": {
-    "@aws-sdk/client-lambda": "^3.100.0"
+    "@aws-sdk/client-ec2": "^3.107.0",
+    "@aws-sdk/client-lambda": "^3.105.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.98",
