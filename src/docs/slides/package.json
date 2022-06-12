@@ -1,0 +1,18 @@
+{
+  "name": "green-cloud-slidev",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@nuxt/kit": "npm:@nuxt/kit-edge@3.0.0-rc.3-27581242.8831e4a",
+    "@slidev/cli": "^0.33.0",
+    "@slidev/theme-apple-basic": "*",
+    "@slidev/theme-default": "*"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.22.2"
+  }
+}

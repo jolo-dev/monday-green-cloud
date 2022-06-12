@@ -8,6 +8,7 @@
         "src/infra/functions",
         "src/infra",
         "src/ui",
+        "src/docs",
         "tests/infra/functions",
         "tests/infra",
         "tests/ui",
