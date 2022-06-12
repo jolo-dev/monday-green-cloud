@@ -5,13 +5,14 @@ First, we will check points according to the [Sustainibility Pillar](https://doc
 
 ## What's inside?
 
-This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following `api`, `ui`:
+This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following `src/infra`, `src/ui`, and `src/docs`:
 
-### `api` and `ui`
+### Packages
 
-- `api`: The API written in [SST](https://serverless-stack.com/)
+- `infra`: The API written in [SST](https://serverless-stack.com/)
+- `infra/functions`: Lambda Handlers for retrieving AWS data of the Account
 - `ui`: React app which contains the UI for the monday app
-- `backend`:
+- `docs`: Presentation and Documentation Static Page
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
