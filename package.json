@@ -3,11 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "src/docs/*",
-    "src/docs/slides/*",
-    "src/ui/*",
-    "src/infra/*",
-    "src/infra/functions/*",
+    "ui/*",
+    "infra/*",
+    "infra/functions/*",
     "tests/ui/*",
     "tests/infra/*/",
     "tests/infra/functions/*"

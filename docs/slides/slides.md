@@ -131,24 +131,13 @@ Building Your Cloud Sustainably
 
 ---
 
-# What Roles do we need?
-
-<v-clicks>
-
-- Technical Lead (John)
-- Programmers
-- UI/UX Designer
-- Product Manager/Owner + Project Manager
-- (Technical) Researcher + Content Writer (?)
-
-</v-clicks>
-
----
-
 # What's next?
 
 <v-clicks>
 
+- Defining Milestones
+  - Create CDK App
+  - Monday Connector
 - Defining Tasks/Roles
   - Schedule Meetings with each Stream
 - Implementation
@@ -156,6 +145,7 @@ Building Your Cloud Sustainably
 - Deadline: 31st of August
 
 </v-clicks>
+
 
 ---
 

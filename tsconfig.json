@@ -5,12 +5,12 @@
     },
     "include": [
         // whatever paths you intend to lint
-        "src/infra/functions",
-        "src/infra",
-        "src/ui",
-        "src/docs",
+        "infra",
+        "ui",
+        "docs",
         "tests/infra/functions",
         "tests/infra",
         "tests/ui",
-    ]
+        "vitest.config.ts"
+    ],
 }

@@ -1,7 +1,6 @@
 packages:
-  - "src/infra/*"
-  - "src/infra/functions/*"
-  - "src/docs/*"
-  - "src/docs/slides/*"
-  - "src/ui/*"
+  - "infra/**"
+  - "infra/functions/*"
+  - "docs/slides/**"
+  - "ui/**"
   - "tests/*"
