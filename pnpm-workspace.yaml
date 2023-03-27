@@ -2,5 +2,6 @@ packages:
   - "infra/**"
   - "infra/functions/*"
   - "docs/slides/**"
+  - "cli/**"
   - "ui/**"
   - "tests/*"
